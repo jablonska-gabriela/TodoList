@@ -1,0 +1,19 @@
+{
+  "name": "todolistapp",
+  "version": "1.0.0",
+  "description": "simple to do list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jablonska-gabriela/TodoList.git"
+  },
+  "author": "Gabriela Jablonska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jablonska-gabriela/TodoList/issues"
+  },
+  "homepage": "https://github.com/jablonska-gabriela/TodoList#readme"
+}
