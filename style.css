@@ -1,0 +1,91 @@
+body {
+  background-color: #A19CC1;
+  font-family: "Oxygen", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 4;
+}
+
+.sticker {
+  position: absolute;
+  top: 0;
+  font-weight: regular;
+  text-align: center;
+  background-color: #403859;
+  color: white;
+  text-decoration: none;
+  background-color: #403859;
+  font-size: 28px;
+  width: 100%;
+  max-height: 43px;
+  padding: 7px 70px;
+  margin-bottom: 73px;
+}
+
+.main {
+  text-align: center;
+}
+.main__heading {
+  font-size: 28px;
+  line-height: 48px;
+  font-weight: bold;
+  padding: 128px 105px 184px 105px;
+}
+.main .link {
+  text-decoration: none;
+  background-color: #403859;
+  color: white;
+  font-size: 28px;
+  font-weight: regular;
+  border-radius: 16px;
+  line-height: 49px;
+  text-align: center;
+  padding: 7px 74px 7px 74px;
+  margin-bottom: 49px;
+  display: block;
+}
+
+.list__item {
+  white-space: nowrap;
+  list-style: none;
+  font-size: 18px;
+  font-weight: regular;
+  background-color: white;
+  height: 34px;
+  border-radius: 16px;
+}
+.list__button {
+  white-space: nowrap;
+  list-style: none;
+}
+
+.newtask__heading {
+  font-size: 28px;
+  font-weight: regular;
+  border-radius: 16px;
+  background-color: white;
+  max-height: 57px;
+  min-width: 199px;
+  padding: 7px 33px 7px 33px;
+  margin: 36px 88px 36px 88px;
+}
+.newtask__area {
+  font-size: 28px;
+  font-weight: regular;
+  border-radius: 16px;
+  background-color: #E5E5E5;
+  min-height: 277px;
+  max-width: 320px;
+  padding: 25px 0 0 34px;
+  margin: 73px 27px;
+}
+.newtask__button {
+  background-color: #403859;
+  min-width: 134px;
+  min-height: 27px;
+  border-radius: 16px;
+  padding: 5px 22px;
+}
+
+/*# sourceMappingURL=style.css.map */

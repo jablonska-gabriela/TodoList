@@ -1,0 +1,101 @@
+$font-main: 'Oxygen',
+sans-serif;
+$dark-purple: #403859;
+$grey: #E5E5E5;
+$main-color: #A19CC1;
+body {
+    background-color: $main-color;
+    font-family: $font-main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 4;
+}
+
+.sticker {
+    position: absolute;
+    top: 0;
+    font-weight: regular;
+    text-align: center;
+    background-color: $dark-purple;
+    color: white;
+    text-decoration: none;
+    background-color: $dark-purple;
+    font-size: 28px;
+    width: 100%;
+    max-height: 43px;
+    padding: 7px 70px;
+    margin-bottom: 73px;
+}
+
+.main {
+    text-align: center;
+    &__heading {
+        font-size: 28px;
+        line-height: 48px;
+        font-weight: bold;
+        padding: 128px 105px 184px 105px;
+    }
+    .menu {
+        &__container {}
+    }
+    .link {
+        text-decoration: none;
+        background-color: $dark-purple;
+        color: white;
+        font-size: 28px;
+        font-weight: regular;
+        border-radius: 16px;
+        line-height: 49px;
+        text-align: center;
+        padding: 7px 74px 7px 74px;
+        margin-bottom: 49px;
+        display: block;
+    }
+}
+
+.list {
+    &__item {
+        white-space: nowrap;
+        list-style: none;
+        font-size: 18px;
+        font-weight: regular;
+        background-color: white;
+        height: 34px;
+        border-radius: 16px;
+    }
+    &__button {
+        white-space: nowrap;
+        list-style: none;
+    }
+}
+
+.newtask {
+    &__heading {
+        font-size: 28px;
+        font-weight: regular;
+        border-radius: 16px;
+        background-color: white;
+        max-height: 57px;
+        min-width: 199px;
+        padding: 7px 33px 7px 33px;
+        margin: 36px 88px 36px 88px;
+    }
+    &__area {
+        font-size: 28px;
+        font-weight: regular;
+        border-radius: 16px;
+        background-color: $grey;
+        min-height: 277px;
+        max-width: 320px;
+        padding: 25px 0 0 34px;
+        margin: 73px 27px;
+    }
+    &__button {
+        background-color: $dark-purple;
+        min-width: 134px;
+        min-height: 27px;
+        border-radius: 16px;
+        padding: 5px 22px;
+    }
+}
